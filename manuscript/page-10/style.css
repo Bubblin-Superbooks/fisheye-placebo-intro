@@ -1,3 +1,87 @@
 body{
-  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/FPI_PAGE_7.jpg); 
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/page_9.jpg); 
 }
+
+
+#bubble {
+    margin: auto;
+    position: absolute;
+    right: 10vw;
+    top: 22vh;
+    background-color: #fff;
+    color:black;
+    text-align: center;
+    width: 45vw;
+    height:25vw;
+    border: 2vw solid #c3cecf;
+    border-top-right-radius: 20vw 15vw;
+    border-top-left-radius: 20vw 15vw;
+    border-bottom-right-radius: 20vw 15vw;
+    border-bottom-left-radius: 20vw 15vw;
+    -moz-border-radius-topright: 20vw 15vw;
+    -moz-border-radius-topleft: 20vw 15vw;
+    -moz-border-radius-bottomright: 20vw 15vw;
+    -moz-border-radius-bottomleft: 20vw 15vw;
+    -webkit-border-top-right-radius: 20vw 15vw;
+    -webkit-border-top-left-radius: 20vw 15vw;
+    -webkit-border-bottom-right-radius: 20vw 15vw;
+    -webkit-border-bottom-left-radius: 20vw 15vw;
+}
+
+#text {
+    position: relative;
+    font-weight: bold;
+    font-size: 5vw;
+    font-style: italic;
+    width: 40vw;
+    height:25vw;
+}
+
+#circle_1, #circle_2, #circle_3 {
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+}
+
+#circle_1 {
+  height: 7vw;
+  width:7vw;
+  border: 1vw solid #c3cecf;
+  bottom: -12vw;
+  right: 12vw;
+
+}
+
+#circle_2 {
+  height: 5vw;
+  width:5vw;
+  border: 0.5vw solid #c3cecf;
+  bottom: -7vw;
+  right: 3.5vw;
+
+}
+
+#circle_3 {
+  height: 3vw;
+  width:3vw;
+  border: 0.5vw solid #c3cecf;
+  bottom: -5vw;
+  right: 3.5vw;
+
+}
+
+
+
+/*
+#arrow_border {
+    width: 0;
+    height: 0;
+    line-height: 0;
+    border-bottom: 3vw solid transparent;
+    border-left: 3vw solid transparent;
+    border-right: 3vw solid #ccc;
+    position: absolute;
+    bottom: -2vw;
+    right: 6.5vw;
+}
+*/

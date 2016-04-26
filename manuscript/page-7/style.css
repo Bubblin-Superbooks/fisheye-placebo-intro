@@ -42,7 +42,7 @@ body{
     line-height: 0;
     border-bottom: 3vw solid transparent;
     border-left: 3vw solid transparent;
-    border-right: 3vw solid #cc;
+    border-right: 3vw solid #ccc;
     position: absolute;
     bottom: -2vw;
     right: 6.5vw;

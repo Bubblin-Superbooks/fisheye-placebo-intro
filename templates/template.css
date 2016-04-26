@@ -1,8 +1,6 @@
-/* Replace image path with your own */
 body {
   margin: 0 0;
   overflow: hidden;
-/*  background-image: url(//raw.githubusercontent.com/marvindanig/your-book-name/master/images/comics-1115x1143-pixels.jpg); */
   background-repeat: no-repeat;
   background-color: #000;
   background-size: 100% 100%;

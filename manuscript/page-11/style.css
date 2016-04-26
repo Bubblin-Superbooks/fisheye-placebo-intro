@@ -1,3 +1,28 @@
 body{
-  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/FPI_PAGE_8.jpg); 
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/10.jpg); 
+}
+
+#bubble {
+    margin: auto;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    color:black;
+    text-align: center;
+    width: 43vw;
+    height:6vw;
+    border-left: 1vw solid #c3cecf;
+    border-top: 1vw solid #c3cecf;
+    border-top-left-radius: 20vw 15vw;
+    -moz-border-radius-topleft: 20vw 15vw;
+    -webkit-border-top-left-radius: 20vw 15vw;
+}
+
+#text {
+    position: relative;
+    font-weight: bold;
+    font-size: 3vw;
+    font-style: italic;
+    height: 6vw;
 }

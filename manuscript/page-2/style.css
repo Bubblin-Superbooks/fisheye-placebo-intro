@@ -1,3 +1,10 @@
 body{
-  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/FPI_PAGE_2.jpg); 
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/page_2.jpg); 
+}
+
+blockquote.electric {
+    position: absolute;
+    right: 0;
+    top: 30%;
+
 }

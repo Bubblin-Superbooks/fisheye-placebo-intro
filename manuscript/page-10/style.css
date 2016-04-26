@@ -6,7 +6,7 @@ body{
 #bubble {
     margin: auto;
     position: absolute;
-    right: 10vw;
+    right: 0vw;
     top: 22vh;
     background-color: #fff;
     color:black;
@@ -57,7 +57,7 @@ body{
   width:5vw;
   border: 0.5vw solid #c3cecf;
   bottom: -7vw;
-  right: 3.5vw;
+  right: -4vw;
 
 }
 
@@ -66,7 +66,7 @@ body{
   width:3vw;
   border: 0.5vw solid #c3cecf;
   bottom: -5vw;
-  right: 3.5vw;
+  right: -4vw;
 
 }
 

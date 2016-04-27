@@ -118,16 +118,15 @@ Fire.prototype.updateMouse = function(e) {
 Fire.prototype.clearCanvas = function() {
 
     this.ctx.globalCompositeOperation = "source-over";
-    this.ctx.fillStyle = "rgba( 15, 5, 2, 0.1 )";
-    this.ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
+
+    this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
     
     var img = new Image();
+    
+    img.src = 'https://raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/18.jpg';
 
-    img.src = '//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/18.jpg';
+    this.ctx.drawImage(img, 0, 0, 0.91* this.canvas.width, 0.91*this.canvas.height);
 
-    this.ctx.drawImage(img, 0, 0, window.innerWidth, window.innerHeight);
-
-    this.ctx.globalCompositeOperation = "lighter";
     this.ctx.rect(0, 0, this.canvas.width, this.canvas.height);
     this.ctx.fillStyle = this.pattern;
     this.ctx.fill(); 

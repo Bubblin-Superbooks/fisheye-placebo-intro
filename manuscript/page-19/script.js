@@ -20,6 +20,7 @@ var Fire = function() {
 
 Fire.prototype.init = function() {
     this.canvas.addEventListener('mousemove', this.updateMouse.bind(this), false);
+    this.canvas.addEventListener('touchstart', this.updateTouch.bind(this), false);
 };
 
 Fire.prototype.run = function() {
@@ -112,6 +113,14 @@ Fire.prototype.updateMouse = function(e) {
     this.mouse.y = this.canvas.height * 0.73; /*e.clientY;*/ 
 
 };
+
+Fire.prototype.updateTouch = function(e) {
+
+    this.mouse.x = this.canvas.width * 0.15; /* e.clientX */
+    this.mouse.y = this.canvas.height * 0.73; /*e.clientY;*/ 
+
+};
+
 
 Fire.prototype.clearCanvas = function() {
 

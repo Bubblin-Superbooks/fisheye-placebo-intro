@@ -12,7 +12,7 @@
     font-weight: 400;
 }
 
-body {
+body, html {
     margin: 0 0;
     overflow: hidden;
     background-repeat: no-repeat;

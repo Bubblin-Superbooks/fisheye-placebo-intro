@@ -1,8 +1,9 @@
 var Fire = function() {
     this.canvas = document.getElementById('fire');
     this.ctx = this.canvas.getContext('2d');
-    this.canvas.height = window.innerHeight;
-    this.canvas.width = window.innerWidth;
+    
+    this.canvas.height = document.body.clientHeight;
+    this.canvas.width = document.body.clientWidth;
 
     this.aFires = [];
     this.aSpark = [];
@@ -10,7 +11,7 @@ var Fire = function() {
 
     this.mouse = {
         x: this.canvas.width * 0.15,
-        y: this.canvas.height * 0.75,
+        y: this.canvas.height * 0.73,
     };
 
     this.init();
@@ -19,9 +20,6 @@ var Fire = function() {
 
 Fire.prototype.init = function() {
     this.canvas.addEventListener('mousemove', this.updateMouse.bind(this), false);
-    this.imageObj = new Image();
-    this.imageObj.src = document.getElementById('bg').getAttribute('src');
-    this.pattern = this.ctx.createPattern(this.imageObj, 'repeat');
 };
 
 Fire.prototype.run = function() {
@@ -110,29 +108,26 @@ Fire.prototype.draw = function() {
 
 Fire.prototype.updateMouse = function(e) {
 
-    this.mouse.x = e.clientX;
-    this.mouse.y = e.clientY;
+    this.mouse.x = this.canvas.width * 0.15; /* e.clientX */
+    this.mouse.y = this.canvas.height * 0.73; /*e.clientY;*/ 
 
 };
 
 Fire.prototype.clearCanvas = function() {
 
     this.ctx.globalCompositeOperation = "source-over";
-
+    this.ctx.globalAlpha = 1.0;
     this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
     
     var img = new Image();
     
     img.src = 'https://raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/18.jpg';
 
-    this.ctx.drawImage(img, 0, 0, 0.91* this.canvas.width, 0.91*this.canvas.height);
+    this.ctx.drawImage(img, 0, 0, this.canvas.width, this.canvas.height );
 
     this.ctx.rect(0, 0, this.canvas.width, this.canvas.height);
     this.ctx.fillStyle = this.pattern;
     this.ctx.fill(); 
-
-
-
 
 };
 
@@ -170,11 +165,6 @@ Fire.prototype.drawTxt = function() {
     this.ctx.restore();
 
 };
-
-
-
-
-
 
 
 var Flame = function(mouse) {
@@ -247,20 +237,16 @@ Flame.prototype.draw = function(ctx) {
     this.grd2.addColorStop(0.5, "hsla( " + this.c.h + ", " + this.c.s + "%, " + this.c.l + "%, " + this.c.a + ")");
     this.grd2.addColorStop(0, "transparent");
 
-
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.r * 3, 0, 2 * Math.PI);
     ctx.fillStyle = this.grd1;
     ctx.fill();
-
 
     ctx.globalCompositeOperation = "overlay";
     ctx.beginPath();
     ctx.arc(this.x, this.y, this.r, 0, 2 * Math.PI);
     ctx.fillStyle = this.grd2;
     ctx.fill();
-
-
 
     ctx.beginPath();
     ctx.moveTo(this.lx, this.ly);
@@ -345,11 +331,9 @@ rand = function(min, max) {
 };
 
 onresize = function() {
-    oCanvas.canvas.width = window.innerWidth;
-    oCanvas.canvas.height = window.innerHeight;
+    oCanvas.canvas.width = document.body.clientWidth;
+    oCanvas.canvas.height = document.body.clientHeight;
 };
-
-
 
 var oCanvas;
 init = function() {

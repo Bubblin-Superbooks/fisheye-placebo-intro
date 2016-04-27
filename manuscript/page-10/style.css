@@ -13,19 +13,19 @@ body{
     text-align: center;
     width: 43vw;
     height:24vw;
-    border: 2vw solid #c3cecf;
-    border-top-right-radius: 20vw 15vw;
-    border-top-left-radius: 20vw 15vw;
-    border-bottom-right-radius: 20vw 15vw;
-    border-bottom-left-radius: 20vw 15vw;
-    -moz-border-radius-topright: 20vw 15vw;
-    -moz-border-radius-topleft: 20vw 15vw;
-    -moz-border-radius-bottomright: 20vw 15vw;
-    -moz-border-radius-bottomleft: 20vw 15vw;
-    -webkit-border-top-right-radius: 20vw 15vw;
-    -webkit-border-top-left-radius: 20vw 15vw;
-    -webkit-border-bottom-right-radius: 20vw 15vw;
-    -webkit-border-bottom-left-radius: 20vw 15vw;
+    border: 0.5vw solid #400;
+    border-top-right-radius: 25vw 15vw;
+    border-top-left-radius: 25vw 15vw;
+    border-bottom-right-radius: 25vw 15vw;
+    border-bottom-left-radius: 25vw 15vw;
+    -moz-border-radius-topright: 25vw 15vw;
+    -moz-border-radius-topleft: 25vw 15vw;
+    -moz-border-radius-bottomright: 25vw 15vw;
+    -moz-border-radius-bottomleft: 25vw 15vw;
+    -webkit-border-top-right-radius: 25vw 15vw;
+    -webkit-border-top-left-radius: 25vw 15vw;
+    -webkit-border-bottom-right-radius: 25vw 15vw;
+    -webkit-border-bottom-left-radius: 25vw 15vw;
 }
 
 #text {
@@ -46,8 +46,8 @@ body{
 #circle_1 {
   height: 7vw;
   width:7vw;
-  border: 1vw solid #c3cecf;
-  bottom: -12vw;
+  border: 0.5vw solid #400;
+  bottom: -8vw;
   right: 12vw;
 
 }
@@ -55,8 +55,8 @@ body{
 #circle_2 {
   height: 5vw;
   width:5vw;
-  border: 0.5vw solid #c3cecf;
-  bottom: -7vw;
+  border: 0.5vw solid #400;
+  bottom: -5vw;
   right: -4vw;
 
 }
@@ -64,9 +64,9 @@ body{
 #circle_3 {
   height: 3vw;
   width:3vw;
-  border: 0.5vw solid #c3cecf;
-  bottom: -5vw;
-  right: -4vw;
+  border: 0.5vw solid #400;
+  bottom: -3vw;
+  right: -3vw;
 
 }
 

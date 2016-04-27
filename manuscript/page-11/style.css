@@ -12,8 +12,8 @@ body{
     text-align: center;
     width: 43vw;
     height:6vw;
-    border-left: 1vw solid #c3cecf;
-    border-top: 1vw solid #c3cecf;
+    border-left: 0.5vw solid #400;
+    border-top: 0.5vw solid #400;
     border-top-left-radius: 20vw 15vw;
     -moz-border-radius-topleft: 20vw 15vw;
     -webkit-border-top-left-radius: 20vw 15vw;

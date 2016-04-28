@@ -6,7 +6,7 @@ var c = canvas.getContext('2d');
 var img = new Image();
 img.src = 'https://raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/smoke.png';
 
-var position = { x: w * 0.16, y: h * 0.13 };
+var position = { x: w * 0.9, y: h * 0.13 };
 
 document.body.appendChild(canvas);
 
@@ -16,7 +16,7 @@ var random = function(min, max) {
 };
 
 canvas.onmousemove = function(e) {
-    position.x = w * 0.16; /* e.offsetX; */
+    position.x = w * 0.9; /* e.offsetX; */
     position.y = h * 0.13; /* e.offsetY; */
 };
 
@@ -49,7 +49,7 @@ var draw = function() {
     particles.push(p);
 
     var img = new Image();
-    img.src = 'https://raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/20.jpg';
+    img.src = 'https://raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/19.jpg';
     c.drawImage(img, 0, 0, document.body.clientWidth, document.body.clientHeight);
 
 

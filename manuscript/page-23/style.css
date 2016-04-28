@@ -9,13 +9,14 @@ body{
   background-repeat: no-repeat;
   width: 50vw;
   height: 30vh;
-  padding: 2vw;
+  padding: 3vw;
 }
 
 .burst .big {
   color: black;
-  width: 50%;
-  height: 50%;
+  width: 70%;
+  height: 40%;
+  line-height: 1.0;
   font-family: "Bangers";  
   text-shadow: -1px -1px yellow, 1px 1px orange,  2px 2px orange;
   -webkit-transform: rotate(-10deg) skew(-10deg, 0);

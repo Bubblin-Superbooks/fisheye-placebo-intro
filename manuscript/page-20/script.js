@@ -24,7 +24,7 @@ function Particle(x, y) {
     this.x = x;
     this.y = y;
     this.velY = (random(1, 10) - 5) / 10;
-    this.velX = -4;
+    this.velX = -3;
     this.size = random(3, 5) / 10;
     this.alpha = 1;
     this.update = function() {

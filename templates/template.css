@@ -38,25 +38,6 @@ img {
     -ms-interpolation-mode: bicubic;
 }
 
-a {
-    color: #0077ff;
-    outline: 0 none;
-    text-decoration: none;
-    text-rendering: optimizelegibility;
-}
-
-a:focus,
-a:active,
-a:hover {
-    outline: 0 none;
-    text-shadow: 0 0 2px #0cf;
-}
-
-a:active {
-    text-shadow: 0 0 2px #fff;
-}
-
-
 /* Page specific */
 
 .leaf {

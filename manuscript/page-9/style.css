@@ -72,3 +72,36 @@
 .yellow:hover {
   background-color: #FFDE29;
 }
+
+.burst {
+  margin: 0 auto;
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/burst.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 30vh;
+  padding: 3vw;
+}
+
+.burst .big {
+  color: black;
+  width: 60%;
+  height: 40%;
+  line-height: 1.0;
+  font-family: "Bangers";  
+  text-shadow: -1px -1px yellow, 1px 1px orange,  2px 2px orange;
+  -webkit-transform: rotate(-10deg) skew(-10deg, 0);
+  transform: rotate(-10deg) skew(-10deg, 0);
+  float: left;
+}
+
+
+.blot {
+  color: rgba(255, 0, 0, 1);
+ -webkit-transform: rotate(-30deg) skew(-20deg, 0);
+  transform: rotate(-30deg) skew(-20deg, 0);
+}
+
+.ghost {
+  text-shadow: -1px -10px yellow, 1px 1px orange,  2px 2px orange;
+}

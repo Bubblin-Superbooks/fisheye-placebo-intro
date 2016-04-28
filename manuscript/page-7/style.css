@@ -6,34 +6,34 @@ body{
 #bubble {
     margin: auto;
     position: absolute;
-    left: 36vw;
+    left: 40vw;
     bottom: 22vh;
-    background-color: #fff;
-    color:black;
+    background-color: #000;
+    color: #fff;
     text-align: center;
-    width: 20vw;
-    height:12vw;
-    border: 2vw solid #c3cecf;
-    border-top-right-radius: 12vw 8vw;
-    border-top-left-radius: 12vw 8vw;
-    border-bottom-right-radius: 12vw 8vw;
-    border-bottom-left-radius: 12vw 8vw;
-    -moz-border-radius-topright: 12vw 8vw;
-    -moz-border-radius-topleft: 12vw 8vw;
-    -moz-border-radius-bottomright: 12vw 8vw;
-    -moz-border-radius-bottomleft: 12vw 8vw;
-    -webkit-border-top-right-radius: 12vw 8vw;
-    -webkit-border-top-left-radius: 12vw 8vw;
-    -webkit-border-bottom-right-radius: 12vw 8vw;
-    -webkit-border-bottom-left-radius: 12vw 8vw;
+    width: 15vw;
+    height:15vw;
+    border: 1vw solid #c3cecf;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    -moz-border-radius-topright: 50%;
+    -moz-border-radius-topleft: 50%;
+    -moz-border-radius-bottomright: 50%;
+    -moz-border-radius-bottomleft: 50%;
+    -webkit-border-top-right-radius: 50%;
+    -webkit-border-top-left-radius: 50%;
+    -webkit-border-bottom-right-radius: 50%;
+    -webkit-border-bottom-left-radius: 50%;
 }
 
 #text {
     position: relative;
     font-weight: bold;
-    font-size: 5vw;
-    width: 20vw;
-    height:12vw;
+    font-size: 4vw;
+    width: 15vw;
+    height:15vw;
 }
 /*
 #arrow_border {

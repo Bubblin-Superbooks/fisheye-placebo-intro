@@ -5,14 +5,15 @@ body{
 
 #bubble {
     margin: auto;
+    padding: 1vw;
     position: absolute;
     right: 0vw;
     top: 22vh;
     background-color: #fff;
     color:black;
     text-align: center;
-    width: 43vw;
-    height:24vw;
+    width: 45vw;
+    height:25vw;
     border: 0.5vw solid #400;
     border-top-right-radius: 25vw 15vw;
     border-top-left-radius: 25vw 15vw;
@@ -30,10 +31,9 @@ body{
 
 #text {
     position: relative;
-    font-weight: bold;
     font-size: 5vw;
     font-style: italic;
-    width: 40vw;
+    width: 42vw;
     height:25vw;
 }
 

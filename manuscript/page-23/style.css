@@ -1,3 +1,31 @@
 body{
   background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/22.jpg); 
 }
+
+.burst {
+  position: fixed;
+  background-image: url(//dl.dropboxusercontent.com/u/55861319/Woobox/FrontEnd/img/comicburst_1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 50vw;
+  height: 30vh;
+  padding: 2vw;
+}
+
+.burst .big {
+  color: black;
+  width: 50%;
+  height: 50%;
+  font-family: "Bangers";  
+  text-shadow: -1px -1px yellow, 1px 1px orange,  2px 2px orange;
+  -webkit-transform: rotate(-10deg) skew(-10deg, 0);
+  transform: rotate(-10deg) skew(-10deg, 0);
+  float: left;
+}
+
+
+.blot {
+  background: #ff0;  
+ -webkit-transform: rotate(-30deg) skew(-20deg, 0);
+  transform: rotate(-30deg) skew(-20deg, 0);
+}

@@ -88,7 +88,7 @@ blockquote.speech {
 blockquote.whisper {
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/whisper.svg);
     width: 25%;
-    color: #ccc;
+    color: #000;
     font-style: italic;
     padding: 6% 5% 15%;
 }

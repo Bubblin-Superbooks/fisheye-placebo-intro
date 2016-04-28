@@ -8,7 +8,16 @@
 }
 
 .small {
-  font-size: 75%;
+  font-size: 60%;
+}
+
+.social a{
+    color: #888;
+    font-size: 80%;
+}
+
+.side-gap {
+    margin: 0 1vw;
 }
 
 a {
@@ -26,6 +35,6 @@ a:hover {
 }
 
 a:active {
-    text-shadow: 0 0 2px #fff;
+    color: #0a0;
 }
 

@@ -1,18 +1,22 @@
 # Fisheye-Placebo
+
+Introducing - FISHEYE PLACEBO - a *first of its kind* modern day webcomics series.
+
+## Summary
+
 Living under an authoritarian regime is not fun. Extensive censorship meant no Facebook, no Youtube, and worse still — no porn. Fortunately for Vance, being a hacker meant scaling the Great Firewall was a walk in the park. With free web at his fingertips, Vance should have been happy. A hero on campus!  
 
 But he is not happy. 
 
 Fate has many plans for Vance, as he is dragged into a crazy conspiracy to overthrow the regime. Between failed dates, falling grades and a sinking feeling of being "caught" one day, Vance comes to question the morality of his own actions. And learns the true price of freedom.
 
-Introducing - THE FISHEYE PLACEBO - a *first of its kind* modern day webcomics series!
 
-# Live render
+# The Comics
 
-The book is deployed here: [Fisheye Placebo - Introduction](https://bubbl.in/cover/the-solar-system-by-marvin-danig)
+Live here: [Fisheye Placebo - Introduction](https://bubbl.in/cover/fisheye-placebo-introduction-by-wenqing-yan)
 
 # Project
-This book was baked with [Bookiza](http://bookiza.io). 
+This comics was baked with [Bookiza](http://bookiza.io). 
 
 # Development
 Simply `npm install` the dependencies and run the application using `$ bookiza server`. Bookiza will compile and build all the manuscript, set up watchers and serve the book over `localhost:4567` via browser-sync. 

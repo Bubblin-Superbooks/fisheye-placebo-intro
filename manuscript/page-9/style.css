@@ -76,23 +76,22 @@
 .burst {
   margin: 0 auto;
   background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/burst.png);
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 50vw;
-  height: 30vh;
-  padding: 3vw;
+  height: 35vw;
+  font-size: 5vw;
 }
 
 .burst .big {
   color: black;
-  width: 60%;
-  height: 40%;
-  line-height: 1.0;
+  width: auto;
+  height: 15vw;
+  line-height: 1.25;
   font-family: "Bangers";  
   text-shadow: -1px -1px yellow, 1px 1px orange,  2px 2px orange;
   -webkit-transform: rotate(-10deg) skew(-10deg, 0);
   transform: rotate(-10deg) skew(-10deg, 0);
-  float: left;
 }
 
 
@@ -103,5 +102,5 @@
 }
 
 .ghost {
-  text-shadow: -1px -10px yellow, 1px 1px orange,  2px 2px orange;
+  text-shadow: -1px -3px yellow, 1px 1px orange,  2px 2px orange;
 }

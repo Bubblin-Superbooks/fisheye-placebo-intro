@@ -10,11 +10,13 @@ body{
 .drop {
   position: relative;
   border-radius: 100%;
-  background-image: url("https://farm8.staticflickr.com/7238/6880444874_a691311ced_k.jpg");
+  background-image: url("https://raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/rain.png");
   background-position: 50%;
   opacity: 0.5;
   -webkit-filter: blur(0.5px);
           filter: blur(0.5px);
+  will-change:transform;
+  transform: translateZ(0);
 
 }
 

@@ -10,8 +10,7 @@ body{
 .drop {
   position: relative;
   border-radius: 100%;
-  background-color: rgba(230, 230, 230, 0.3);
-  /* background-image: url("https://farm8.staticflickr.com/7238/6880444874_a691311ced_k.jpg"); */
+  background-image: url("https://farm8.staticflickr.com/7238/6880444874_a691311ced_k.jpg");
   background-position: 50%;
   opacity: 0.5;
   -webkit-filter: blur(0.5px);

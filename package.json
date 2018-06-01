@@ -1,17 +1,17 @@
 {
-  "name": " <projectName> ",
+  "name": "Fisheye-Placebo-Introduction",
   "version": "0.0.4",
-  "description": "Superbook <projectName> by <username>",
+  "description": "Superbook Fisheye-Placebo-Introduction by Yuumei",
   "keywords": [
     "superbook",
     "bookiza"
   ],
-  "author": " <username> <your@email.com> <(https://bubblin.io/<username>)>",
+  "author": "yuumei <marvin@bubbl.in> (https://bubbl.in/yuumei)",
   "license": "ISC",
-  "homepage": "https://bubblin.io/<username>",
+  "homepage": "https://bubblin.io/yuumei",
   "repository": {
     "type": "git",
-    "url": "git+https://github/project/url/here"
+    "url": "git+https://github.com/marvindanig/fisheye-placebo-intro.git"
   },
   "scripts": {
     "postinstall": "node ./crust/scripts/ready.js"

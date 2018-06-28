@@ -1,17 +1,17 @@
 {
-  "name": "fp-introduction",
+  "name": " <projectName> ",
   "version": "0.0.4",
-  "description": "Superbook Fisheye-Placebo-Introduction by Yuumei",
+  "description": "Superbook <projectName> by <username>",
   "keywords": [
     "superbook",
     "bookiza"
   ],
-  "author": "yuumei <marvin@bubbl.in> (https://bubbl.in/yuumei)",
+  "author": " <username> <your@email.com> <(https://bubblin.io/<username>)>",
   "license": "ISC",
-  "homepage": "https://bubblin.io/yuumei",
+  "homepage": "https://bubblin.io/<username>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/marvindanig/fisheye-placebo-intro.git"
+    "url": "git+https://github/project/url/here"
   },
   "scripts": {
     "postinstall": "node ./crust/scripts/ready.js"
@@ -38,8 +38,5 @@
     "js-cookie": "2.2.0",
     "path": "0.12.7",
     "shelljs": "0.8.1"
-  },
-  "devDependencies": {
-    "eslint-plugin-html": "4.0.5"
   }
 }

@@ -15,12 +15,12 @@
         this.aSpark = [];
         this.aSpark2 = [];
 
-
-
+        console.log(this.canvas.width)
+        
         this.mouse = {
-						x: this.canvas.width * 0.15,
-						y: this.canvas.height * 0.73,
-        }
+						x: this.canvas.width * 1.2,
+						y: this.canvas.height * 0.75,
+        }      	
 
 
 
@@ -98,7 +98,7 @@
 				
 				var img = new Image();
 
-				img.src = 'https://raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/18.jpg';
+				img.src = 'https://raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/17.jpg';
 
 				this.ctx.drawImage(img, 0, 0, this.canvas.width, this.canvas.height);
 

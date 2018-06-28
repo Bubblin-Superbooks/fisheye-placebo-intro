@@ -98,9 +98,9 @@ blockquote.whisper {
 
 blockquote.electric {
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/electric.svg);
-    width: 35%;
+    width: 70%;
     font-style: italic;
-    padding: 8% 10% 20% 2%;
+    padding: 5% 10% 20% 10%;
 }
 
 blockquote.electric span {

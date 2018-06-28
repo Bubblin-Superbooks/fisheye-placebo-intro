@@ -1,6 +1,6 @@
 /* globals $ key Cookies Turn history */
 
-var pushToStateFlag = true
+let pushToStateFlag = true
 
 $(document).ready(() => {
   function click (el) {

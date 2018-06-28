@@ -98,7 +98,7 @@
 				
 				var img = new Image();
 
-				img.src = 'https://raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/18.jpg';
+				img.src = 'https://res.cloudinary.com/bubblin/image/upload/c_fill,f_auto,q_auto/v1530214441/yuumei/18.jpg';
 
 				this.ctx.drawImage(img, 0, 0, this.canvas.width, this.canvas.height);
 

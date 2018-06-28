@@ -15,8 +15,6 @@
         this.aSpark = [];
         this.aSpark2 = [];
 
-        console.log(this.canvas.width)
-        
         this.mouse = {
 						x: this.canvas.width * 1.2,
 						y: this.canvas.height * 0.75,
@@ -98,7 +96,7 @@
 				
 				var img = new Image();
 
-				img.src = 'https://raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/17.jpg';
+				img.src = 'https://res.cloudinary.com/bubblin/image/upload/c_fill,f_auto,q_auto/v1530214441/yuumei/17.jpg';
 
 				this.ctx.drawImage(img, 0, 0, this.canvas.width, this.canvas.height);
 

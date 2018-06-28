@@ -13,7 +13,7 @@ canvas#fire{
 	top: 0;
 	transform: translate3d(0);
 	will-change: transform;
-	background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/17.jpg);
+	background-image: url(https://res.cloudinary.com/bubblin/image/upload/c_fill,f_auto,q_auto/v1530214441/yuumei/17.jpg);
 	background-color: transparent !important;
 	background-size: cover;
 }

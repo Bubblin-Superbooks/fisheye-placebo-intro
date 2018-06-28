@@ -1,5 +1,10 @@
 body{
-  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/2.jpg); 
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/witness.jpg); 
+  height: 100vh;
+  width: 100vw;
+  background-position: right center;
+  background-size: 200% 100%;
+
 }
 
 blockquote.electric {
@@ -7,11 +12,12 @@ blockquote.electric {
     right: -5%;
     top: 20%;
     width:50%;
-    padding: 8% 20% 25% 2%;
+    padding: 10% 20% 25% 2%;
 }
 
 blockquote.electric span {
     display: block;
     font-size: 5vw;
     font-weight: bold;
+    color: red;
 }

@@ -1,3 +1,14 @@
 body{
-  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/3.jpg); 
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/12.jpg); 
+}
+
+blockquote.speech {
+    position: absolute;
+    right: 0vw;
+    top: 10vw;
+    width:40%;
+    padding-top: 10%;
+    padding-bottom: 25%;
+    font-size: 4vw;
+
 }

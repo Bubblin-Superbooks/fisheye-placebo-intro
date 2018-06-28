@@ -1,0 +1,8 @@
+body{
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/witness.jpg); 
+  height: 100vh;
+  width: 100vw;
+  background-position: left center;
+  background-size: 200% 100%;
+
+}

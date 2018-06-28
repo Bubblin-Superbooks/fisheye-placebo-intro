@@ -1,14 +1,16 @@
 body{
-  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/12.jpg); 
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/11.jpg); 
 }
 
-blockquote.speech {
+blockquote.electric {
     position: absolute;
-    right: 0vw;
-    top: 10vw;
-    width:40%;
-    padding-top: 10%;
-    padding-bottom: 25%;
-    font-size: 4vw;
+    right: -5%;
+    top: 40%;
+    width:50%;
+    padding: 12% 15% 20% 2%;
+}
 
+blockquote.electric span {
+    display: inline-block;
+    font-size: 5vw;
 }

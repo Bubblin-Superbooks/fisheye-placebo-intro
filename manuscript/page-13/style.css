@@ -1,15 +1,3 @@
 body{
-  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/23.jpg); 
-}
-
-
-blockquote.electric {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/electric.svg);
-    width: 20%;
-    font-style: italic;
-    padding: 5% 5% 10% 0%;
-    font-size: 4vw;
-    position:absolute;
-    right: 50vw;
-    bottom: 25vh;
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/3.jpg); 
 }

@@ -1,3 +1,118 @@
-body{
-  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/5.jpg); 
+body {
+    background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/1.jpg);
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background-size: cover;
+  position: relative;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
 }
+
+body:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  animation: flash 10s ease-in infinite;
+  z-index: 50;
+}
+
+
+blockquote.speech {
+    position: absolute;
+    right: 5vw;
+    bottom: 5vw;
+}
+
+#canvas {
+  position: absolute;
+  bottom: 0;
+	height: 100vh;
+  width: 100vw;
+  will-change: transform;
+  transform: rotate3d(1, 0 , 0, 30deg);
+}
+
+
+.ripple {
+  opacity: 0;
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 200px;
+  animation: rip 20s ease-in;
+  margin-left: -50px;
+  margin-top: -50px;
+  z-index: 20;
+  background: rgba(100, 0, 0, .1);
+  box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+}
+
+@keyframes rip{
+  0% {
+    opacity: 1;
+    height: 20px;
+    width:  20px;
+    margin-left: 0;
+    margin-top: 0;
+    background: rgba(255, 55, 55, .1);
+    box-shadow: 200px -200px 10px rgba(0,0,0,0);
+  }
+
+  25% {
+    height: 3px;
+    width: 3px;
+    margin-left: -10px;
+    margin-top: -10px;
+    background: rgba(255, 55, 55, .2);
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, .2);
+  }
+  30%,90% {
+    opacity: 0.8;
+    height: 100px;
+    width: 100px;
+    margin-left: -60px;
+    margin-top: -60px;
+    background: rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+  }
+
+  100% {
+    opacity: 0.8;
+    height: 1px;
+    width: 1px;
+    margin-left: 0;
+    margin-top: 0;
+    background: rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 20px rgba(0,0,0,.3);
+  }
+}
+
+@keyframes flash {
+  0% {
+    background: transparent;
+  }
+
+  1% {
+    background:rgba(255, 255, 55, .1);
+  }
+
+  2% {
+    background: transparent;
+  }
+
+  3% {
+    background:rgba(	255, 255, 55, .2);
+  }
+
+  4%, 100% {
+    background: transparent;
+  }
+
+}
+

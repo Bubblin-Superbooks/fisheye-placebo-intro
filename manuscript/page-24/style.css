@@ -1,12 +1,28 @@
 body{
-  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/12.jpg); 
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/10.jpg); 
 }
 
-blockquote.speech {
+#bubble {
+    margin: auto;
     position: absolute;
-    right: 0vw;
-    top: 1vw;
-    height: 20vh;
-    padding: 5%;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    color:black;
+    text-align: center;
+    width: 43vw;
+    height:6vw;
+    border-left: 0.5vw solid #400;
+    border-top: 0.5vw solid #400;
+    border-top-left-radius: 20vw 15vw;
+    -moz-border-radius-topleft: 20vw 15vw;
+    -webkit-border-top-left-radius: 20vw 15vw;
+}
+
+#text {
+    position: relative;
+    font-weight: bold;
     font-size: 3vw;
+    font-style: italic;
+    height: 6vw;
 }

@@ -1,12 +1,21 @@
+(function(window) {
+
+	var w = window;
+	var d = document;
+	var e = d.documentElement;
+	var g = d.getElementsByTagName('body')[0];
+
+
 var canvas = document.createElement('canvas');
-var w = canvas.width = document.body.clientHeight;
-var h = canvas.height = document.body.clientHeight;
+var w = canvas.width = w.innerWidth || e.clientWidth || g.clientWidth;
+var h = canvas.height = w.innerHeight || e.clientHeight || g.clientHeight; 
+
 var c = canvas.getContext('2d');
 
 var img = new Image();
 img.src = 'https://raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/smoke.png';
 
-var position = { x: w * 0.9, y: h * 0.13 };
+var position = { x: w * 1.16, y: h * 0.13 };
 
 document.body.appendChild(canvas);
 
@@ -61,3 +70,4 @@ var draw = function() {
 };
 
 setInterval(draw, 1000 / 60);
+})(window)

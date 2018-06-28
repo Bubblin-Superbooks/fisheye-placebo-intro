@@ -16,12 +16,12 @@ body, html {
     margin: 0 0;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-color: #000;
+    background-color: #5c0a02;
     background-size: 100% 100%;
     height: 100vh;
     width: 100vw;
     font: 6vw/1.3 'Josefin Sans', sans-serif;
-    color: white;
+    color: #ccc;
 }
 
 img {

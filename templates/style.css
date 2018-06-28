@@ -63,6 +63,9 @@ img {
     text-align: justify;
 }
 
+.right {
+	float: right;
+}
 
 /* Your custom styles below */
 

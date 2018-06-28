@@ -4,9 +4,9 @@ body{
 
 blockquote.electric {
     position: absolute;
-    right: -5%;
-    top: 40%;
-    width:50%;
+    right: -4vw;
+    top: 1vh;
+    width:40%;
     padding: 12% 15% 20% 2%;
 }
 

@@ -5,18 +5,18 @@ body{
 #bubble {
     margin: auto;
     position: absolute;
-    right: 0;
+    left: 0;
     bottom: 0;
-    background-color: #fff;
-    color:black;
+    background-color: #a60;
+    color: white;
     text-align: center;
     width: 43vw;
     height:6vw;
-    border-left: 0.5vw solid #400;
-    border-top: 0.5vw solid #400;
-    border-top-left-radius: 20vw 15vw;
-    -moz-border-radius-topleft: 20vw 15vw;
-    -webkit-border-top-left-radius: 20vw 15vw;
+    border-right: 0.5vw solid #fff;
+    border-top: 0.5vw solid #fff;
+    border-top-right-radius: 20vw 15vw;
+    -moz-border-radius-topright: 20vw 15vw;
+    -webkit-border-top-right-radius: 20vw 15vw;
 }
 
 #text {

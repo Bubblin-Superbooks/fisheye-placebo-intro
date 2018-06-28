@@ -1,5 +1,5 @@
 body{
-  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/7.jpg); 
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/shot-dead.jpg); 
 }
 
 
@@ -9,11 +9,11 @@ body{
     left: 40vw;
     bottom: 22vh;
     background-color: #000;
-    color: #fff;
+    color: #fa0;
     text-align: center;
     width: 15vw;
     height:15vw;
-    border: 1vw solid #c3cecf;
+    border: 1vw solid #5c0a02;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
     border-bottom-right-radius: 50%;

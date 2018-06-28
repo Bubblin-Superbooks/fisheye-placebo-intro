@@ -1,3 +1,18 @@
 body{
-  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/3.jpg); 
+  background-image: url(//raw.githubusercontent.com/marvindanig/fisheye-placebo-intro/master/assets/images/18.jpg);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+canvas#fire{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	transform: translate3d(0);
+	will-change: transform;
 }
